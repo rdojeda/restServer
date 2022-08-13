@@ -1,10 +1,8 @@
 const usersGet = (req, res) => {
-  const { q, nombre = 'no name', apikey } = req.query;
+  
   res.json({
     msg: "get API - users",
-    q,
-    nombre,
-    apikey
+  
   });
 };
 
