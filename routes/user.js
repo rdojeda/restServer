@@ -13,6 +13,4 @@ const router = Router();
 
     router.patch("/", usersPatch);
 
-
-
 export default router;
